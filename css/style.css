@@ -1,0 +1,185 @@
+
+body{
+	background-color: #DBD3D8;
+	font-family: 'Crimson Text', serif;
+	width:100%;
+}
+
+
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+
+a:hover{
+	color:#223843;
+}
+
+a.navbar-brand:hover{
+	color:#D77A61;
+}
+
+
+p{
+	font-size: 18px;
+}
+
+
+
+#navbar{
+	background-color: #223843;
+	margin:0px;
+  	font-family: 'Libre Baskerville', serif;
+  	color:white;
+  	text-shadow: none;
+  	padding-left:10px;
+  	border-radius: 0px;
+
+}
+
+#navRow{
+	position: sticky;
+  	top: 0px; /* When the element reaches top: 10px, it becomes fixed. */
+  	z-index: 100;
+}
+
+img.img-thumbnail{
+	transition:0.3s;
+}
+
+img.img-thumbnail:hover{
+	box-shadow: 5px 5px 5px #555555;
+	transition:0.3s;
+}
+
+
+hr{
+	border: 0.5px solid #D77A61;
+}
+.content-section{
+	transition:0.3s;
+	box-shadow: 5px 5px 5px #555555;
+	color:black;
+}
+
+.content-section:hover{
+	background-color: white;
+	box-shadow: 8px 8px 8px #0f0f0f;
+}
+
+#jumbo{
+	height:400px;
+	padding:100px;
+	margin:0px;
+	border-radius:0px;
+	color:#ffffff;
+	text-shadow: 2px 2px #000000;
+	font-family: 'Crimson Text', serif;
+	background-image: url("../images/river.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+
+}
+
+.navbar-toggle{
+	background-color: white;
+}
+.icon-bar{
+	border:1px solid #223843;
+}
+
+#homeContainer{
+	padding-bottom: 100px;
+	
+}
+
+#footer{
+	background-color: #9A9FB6;
+	height:100px;
+	border-top: 5px solid #D77A61;
+	padding-top:20px;
+	color:#ffffff;
+	font-family: 'Josefin Slab', serif;	
+	font-size: 20px;
+	margin-top:10px;
+}
+
+#about-me{
+
+	margin-bottom: 20px;
+	margin-top:30px;
+}
+
+
+#contacts{
+	
+	margin-bottom:20px;
+	padding:20px;
+	margin-top:30px;
+
+}
+
+#my-photo{
+	height:200px;
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#portfolioLabel{
+	background-image: url("../images/forestSea.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center; 
+    height:300px;
+	color:#ffffff;
+	text-shadow: 2px 2px #000000;
+	font-family: 'Crimson Text', serif;
+	padding-top: 100px;
+	border-radius:0px;
+}
+
+
+.portfolio-frame{
+		height: 200px; 
+		color:black;
+		font-family: 'Josefin Slab', serif;	
+}
+
+.portfolio-pic{
+	height:75%;
+	background-color:#D77A61;
+	transition:0.2s;
+}
+
+.portfolio-pic:hover{
+	box-shadow: 5px 5px 5px #555555;
+	/*transition:0.3s;*/
+}
+
+
+
+
+@media only screen and (max-width: 762px){
+
+	.portfolio-pic{
+	box-shadow: 5px 5px 5px #555555;
+	
+	}
+
+	.content-section{
+	background-color: white;
+	box-shadow: 8px 8px 8px #0f0f0f;
+	}
+
+	img.img-thumbnail{
+	box-shadow: 5px 5px 5px #555555;
+	transition:0.3s;
+	}
+
+}
+
+
