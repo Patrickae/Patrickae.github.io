@@ -1,6 +1,6 @@
 
 body{
-	background-color: #DBD3D8;
+	background-color:#E6E6E6;
 	font-family: 'Crimson Text', serif;
 	width:100%;
 }
@@ -18,7 +18,7 @@ a:hover{
 }
 
 a.navbar-brand:hover{
-	color:#D77A61;
+	color:#F0D879;
 }
 
 
@@ -29,7 +29,7 @@ p{
 
 
 #navbar{
-	background-color: #223843;
+	background-color: #248888;
 	margin:0px;
   	font-family: 'Libre Baskerville', serif;
   	color:white;
@@ -51,12 +51,12 @@ img.img-thumbnail{
 
 img.img-thumbnail:hover{
 	box-shadow: 5px 5px 5px #555555;
-	transition:0.3s;
+	
 }
 
 
 hr{
-	border: 0.5px solid #D77A61;
+	border: 0.5px solid #E7475E;
 }
 .content-section{
 	transition:0.3s;
@@ -70,7 +70,7 @@ hr{
 }
 
 #jumbo{
-	height:400px;
+	height:300px;
 	padding:100px;
 	margin:0px;
 	border-radius:0px;
@@ -82,6 +82,9 @@ hr{
     background-attachment: fixed;
     background-position: center; 
 
+}
+
+.tab { text-indent:40px 
 }
 
 .navbar-toggle{
@@ -99,7 +102,7 @@ hr{
 #footer{
 	background-color: #9A9FB6;
 	height:100px;
-	border-top: 5px solid #D77A61;
+	border-top: 5px solid #E7475E;
 	padding-top:20px;
 	color:#ffffff;
 	font-family: 'Josefin Slab', serif;	
@@ -108,7 +111,6 @@ hr{
 }
 
 #about-me{
-
 	margin-bottom: 20px;
 	margin-top:30px;
 }
@@ -153,15 +155,49 @@ hr{
 	height:75%;
 	background-color:#D77A61;
 	transition:0.2s;
+	box-shadow: 2px 2px 2px #555555;
 }
 
 .portfolio-pic:hover{
 	box-shadow: 5px 5px 5px #555555;
-	/*transition:0.3s;*/
+	
 }
 
+#jobMatch{
+	background-image: url("../images/job-search.png");
+	background-position: center;
+	background-size:contain;
+}
 
+#nytreact{
+	background-image: url("../images/nytreact.png");
+	background-position: center;
+	background-size:contain;
+}
 
+#scrub-comment{
+	background-image: url("../images/digg-scraper.png");
+	background-position: center;
+	background-size:contain;
+}
+
+#trivia{
+	background-image: url("../images/trivia.png");
+	background-position: center;
+	background-size:contain;
+}
+
+#hangman{
+	background-image: url("../images/hangman.png");
+	background-position: center;
+	background-size:contain;
+}
+
+#burger{
+	background-image: url("../images/burger.png");
+	background-position: center;
+	background-size:contain;
+}
 
 @media only screen and (max-width: 762px){
 
