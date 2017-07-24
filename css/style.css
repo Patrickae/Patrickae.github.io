@@ -163,6 +163,14 @@ hr{
 	
 }
 
+#profile-email{
+	color:#248888;
+}
+
+#profile-email:hover{
+	color:#223843;
+}
+
 #jobMatch{
 	background-image: url("../images/job-search.png");
 	background-position: center;
