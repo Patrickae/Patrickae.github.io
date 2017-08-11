@@ -75,19 +75,22 @@ hr{
 }
 
 #jumbo{
-	height:300px;
-	padding:100px;
+	height:400px;
 	margin:0px;
 	background-size: 100%;
 	border-radius:0px;
-	color:#ffffff;
-	text-shadow: 2px 2px #000000;
-	font-family: 'Crimson Text', serif;
+	color: #223843;
+	padding-top:100px;
+	text-shadow: 2px 2px  #DBD3D8;
+	font-family: 'Crimson Text', serif;	
 	background-image: url("../images/river.jpg");
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center; 
 
+}
+#jumbo h1, #jumbo p{
+	font-weight: 700;
 }
 
 .tab { text-indent:40px 
@@ -251,6 +254,9 @@ hr{
 	img.img-thumbnail{
 	box-shadow: 5px 5px 5px #555555;
 	transition:0.3s;
+	}
+	#jumbo{
+		background-size: 100% 100%;
 	}
 
 }
