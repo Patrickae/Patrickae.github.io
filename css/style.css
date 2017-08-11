@@ -1,6 +1,7 @@
 
 body{
-	background-color:#E6E6E6;
+	margin:0;
+	background-color:#EDECF4;
 	font-family: 'Crimson Text', serif;
 	width:100%;
 }
@@ -20,7 +21,9 @@ a:hover{
 a.navbar-brand:hover{
 	color:#F0D879;
 }
-
+h2 a{
+	color:#248888;
+}
 
 p{
 	font-size: 18px;
@@ -45,11 +48,13 @@ p{
   	z-index: 100;
 }
 
-img.img-thumbnail{
+img.img-responsive{
 	transition:0.3s;
+	border-radius:10px;
+
 }
 
-img.img-thumbnail:hover{
+img.img-responsive:hover{
 	box-shadow: 5px 5px 5px #555555;
 	
 }
@@ -73,13 +78,14 @@ hr{
 	height:300px;
 	padding:100px;
 	margin:0px;
+	background-size: 100%;
 	border-radius:0px;
 	color:#ffffff;
 	text-shadow: 2px 2px #000000;
 	font-family: 'Crimson Text', serif;
 	background-image: url("../images/river.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center; 
 
 }
@@ -123,6 +129,10 @@ hr{
 	margin-top:30px;
 
 }
+/*#contact-well{
+	padding:10px;
+	margin-bottom:20px;
+}*/
 
 #my-photo{
 	height:200px;
@@ -135,12 +145,28 @@ hr{
 	background-image: url("../images/forestSea.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
+    background-size: 100%;
     background-position: center; 
     height:300px;
 	color:#ffffff;
 	text-shadow: 2px 2px #000000;
 	font-family: 'Crimson Text', serif;
 	padding-top: 100px;
+	border-radius:0px;
+}
+
+#contactLabel{
+
+	background-image: url("../images/mailbox.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+    background-position: center; 
+    height:300px;
+	color:#ffffff;
+	text-shadow: 2px 2px #000000;
+	padding-top: 200px;
+	font-family: 'Crimson Text', serif;
 	border-radius:0px;
 }
 
@@ -174,37 +200,37 @@ hr{
 #jobMatch{
 	background-image: url("../images/job-search.png");
 	background-position: center;
-	background-size:contain;
+	background-size: 100% 100%;
 }
 
 #nytreact{
 	background-image: url("../images/nytreact.png");
 	background-position: center;
-	background-size:contain;
+	background-size: 100% 100%;
 }
 
 #scrub-comment{
 	background-image: url("../images/digg-scraper.png");
 	background-position: center;
-	background-size:contain;
+	background-size: 100% 100%;
 }
 
 #trivia{
 	background-image: url("../images/trivia.png");
 	background-position: center;
-	background-size:contain;
+	background-size: 100% 100%;
 }
 
 #hangman{
 	background-image: url("../images/hangman.png");
 	background-position: center;
-	background-size:contain;
+	background-size: 100% 100%;
 }
 
 #burger{
 	background-image: url("../images/burger.png");
 	background-position: center;
-	background-size:contain;
+	background-size: 100% 100%;
 }
 
 @media only screen and (max-width: 762px){
@@ -212,6 +238,9 @@ hr{
 	.portfolio-pic{
 	box-shadow: 5px 5px 5px #555555;
 	
+	}
+	#contactLabel{
+		padding-top:50px;
 	}
 
 	.content-section{
