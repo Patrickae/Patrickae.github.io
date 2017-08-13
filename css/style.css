@@ -2,7 +2,8 @@
 body{
 	margin:0;
 	background-color:#EDECF4;
-	font-family: 'Crimson Text', serif;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Raleway', serif;	
 	width:100%;
 }
 
@@ -11,6 +12,7 @@ body{
 a{
 	color: white;
 	text-decoration: none;
+	text-shadow:none;
 }
 
 
@@ -21,7 +23,7 @@ a:hover{
 a.navbar-brand:hover{
 	color:#F0D879;
 }
-h2 a{
+h3 a{
 	color:#248888;
 }
 
@@ -34,9 +36,8 @@ p{
 #navbar{
 	background-color: #248888;
 	margin:0px;
-  	font-family: 'Libre Baskerville', serif;
+  	font-family: 'Josefin Slab', serif;	
   	color:white;
-  	text-shadow: none;
   	padding-left:10px;
   	border-radius: 0px;
 
@@ -68,6 +69,9 @@ hr{
 	box-shadow: 5px 5px 5px #555555;
 	color:black;
 }
+.content-section h2{
+font-family: 'Josefin Sans', sans-serif;
+}
 
 .content-section:hover{
 	background-color: white;
@@ -79,18 +83,23 @@ hr{
 	margin:0px;
 	background-size: 100%;
 	border-radius:0px;
-	color: #223843;
-	padding-top:100px;
-	text-shadow: 2px 2px  #DBD3D8;
-	font-family: 'Crimson Text', serif;	
-	background-image: url("../images/river.jpg");
+	color: #ffffff;
+	text-shadow: 1px 1px #000000;
+	padding:0;
+	font-family: 'Josefin Sans', sans-serif;
+	background-image: url("../images/forestSea.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center; 
-
+    padding-top:100px;
 }
-#jumbo h1, #jumbo p{
-	font-weight: 700;
+
+#header-filter{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding-top:100px;
+	background-color: rgba(17,205,134, 0.3);
 }
 
 .tab { text-indent:40px 
@@ -107,10 +116,7 @@ hr{
 	padding-bottom: 50px;
 	
 }
-/*.contact-img{
-	height:100%;
-}
-*/
+
 #footer{
 	background-color: #9A9FB6;
 	height:100px;
@@ -130,26 +136,28 @@ hr{
 
 
 #contacts{
-	
 	margin-bottom:20px;
 	padding:20px;
 	padding-top:5px;
 	margin-top:30px;
-
 }
+
 #contacts img{
 	margin-bottom:10px;
 }
 
 #my-photo{
-	height:200px;
+	height:150px;
+	border: 4px double  #04384A;
+	border-radius: 75px;
+	box-shadow: 5px 5px 5px #555555;
 	float:left;
-	margin-right: 10px;
-	margin-bottom: 10px;
+	margin-right: 20px;
+	margin-bottom: 5px;
 }
 
 #portfolioLabel{
-	background-image: url("../images/forestSea.jpg");
+	background-image: url("../images/plant.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: 100%;
@@ -157,7 +165,7 @@ hr{
     height:300px;
 	color:#ffffff;
 	text-shadow: 2px 2px #000000;
-	font-family: 'Crimson Text', serif;
+	font-family: 'Josefin Sans', sans-serif;
 	padding-top: 100px;
 	border-radius:0px;
 }
@@ -173,7 +181,7 @@ hr{
 	color:#ffffff;
 	text-shadow: 2px 2px #000000;
 	padding-top: 200px;
-	font-family: 'Crimson Text', serif;
+	font-family: 'Josefin Sans', sans-serif;
 	border-radius:0px;
 }
 
@@ -239,6 +247,9 @@ hr{
 	background-position: center;
 	background-size: 100% 100%;
 }
+#contact-well{
+	font-family: 'Josefin Slab', serif;	
+}
 
 @media only screen and (max-width: 762px){
 
@@ -259,8 +270,11 @@ hr{
 	box-shadow: 5px 5px 5px #555555;
 	transition:0.3s;
 	}
+
 	#jumbo{
-		background-size: 100% 100%;
+		background-position:;
+		background-attachment:scroll;
+		background-size:800px;
 	}
 
 }
