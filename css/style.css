@@ -79,7 +79,7 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 #jumbo{
-	height:400px;
+	height:500px;
 	margin:0px;
 	background-size: 100%;
 	border-radius:0px;
@@ -94,7 +94,12 @@ font-family: 'Josefin Sans', sans-serif;
     padding-top:100px;
 }
 
-
+#jumbo h1{
+	font-size:100px;
+}
+#jumbo p{
+	font-size:50px;
+}
 
 .tab { text-indent:40px 
 }
@@ -163,10 +168,12 @@ font-family: 'Josefin Sans', sans-serif;
 	padding-top: 100px;
 	border-radius:0px;
 }
-
+#portfolioLabel h1{
+	font-size: 80px;
+}
 #contactLabel{
 
-	background-image: url("../images/mailbox.jpg");
+	background-image: url("../images/mailbox2.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: 100%;
@@ -179,6 +186,9 @@ font-family: 'Josefin Sans', sans-serif;
 	border-radius:0px;
 }
 
+#contactLabel h1{
+	font-size: 80px;
+}
 
 .portfolio-frame{
 		height: 200px; 
@@ -268,8 +278,13 @@ font-family: 'Josefin Sans', sans-serif;
 	#jumbo{
 		background-position:;
 		background-attachment:scroll;
-		background-size:800px;
+		height:550px;
+		background-size:1000px;
+		padding-top:50px;
 	}
+	#contactLabel h1{
+	font-size: 70px;
+}
 
 }
 
