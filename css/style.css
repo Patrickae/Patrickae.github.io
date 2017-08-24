@@ -68,7 +68,8 @@ hr{
 
 .portfolio-element-description h3 {
 position:relative;
-text-align:center;}
+text-align:center;
+}
 
 .portfolio-element-description h3 span {
     display:inline-block;
@@ -259,6 +260,7 @@ font-family: 'Josefin Sans', sans-serif;
  }
 header h2{
 	text-decoration: underline;
+	font-family: 'Josefin Sans', serif;	
 }
 #profile-email{
 	color:#248888;
