@@ -63,6 +63,28 @@ img.img-responsive:hover{
 
 hr{
 	border: 0.5px solid #E7475E;
+	content: attr(data-content);
+}
+
+.portfolio-element-description h3 {
+position:relative;
+text-align:center;}
+
+.portfolio-element-description h3 span {
+    display:inline-block;
+    padding:0 10px;
+    background:#EDECF4;
+}
+.portfolio-element-description h3:before {
+    content:"";
+    display:block;
+    position:absolute;
+    z-index:-1;
+    left:0;
+    right:0;
+    top:50%;
+    height:1px;
+    background:#E7475E;
 }
 .content-section{
 	transition:0.3s;
@@ -192,6 +214,7 @@ font-family: 'Josefin Sans', sans-serif;
 
 .portfolio-frame{
 		height: 200px; 
+		flex
 		color:black;
 		font-family: 'Josefin Slab', serif;	
 }
@@ -208,49 +231,87 @@ font-family: 'Josefin Sans', sans-serif;
 	
 }
 
+#portfolioContainer{
+	display:flex;
+	flex-flow:column;
+	padding:0;
+	margin:0 auto;
+}
+
+.portfolio-element{
+	flex:1;
+	display:flex;
+	flex-flow:column;
+	margin-bottom:20px;
+
+}
+.element-container{
+	flex:1 1 0;
+}
+ .portfolio-img{
+ 	border:1px solid #777;
+ 	max-height:300px;
+ 	margin-bottom:10px;
+ }
+
+ .image-and-links{
+ 	margin-bottom:10px;
+ }
+header h2{
+	text-decoration: underline;
+}
 #profile-email{
 	color:#248888;
 }
+.label{
+	color:black;
+	line-height: 30px;
+}
 
+.label-node{
+	background:#11CD86;
+}
+.label-express{
+	background:#fff;
+}
+.label-javascript{
+	background:#F6D600;
+}
+.label-jquery{
+	background:#066FA5;
+	color:#fff;
+}
+.label-bootstrap{
+	background:#6f5499;
+	color:#fff;
+}
+.label-react{
+	background:#39BAE8;
+}
+.label-sql{
+	background:#0B90AA;
+	color:#fff;
+}
+.label-mongo{
+	background:#38925E;
+	color:#fff;
+}
+.label-handlebars{
+	background:#F78500;
+}
+.label-passport{
+	background:#000;
+	color:#fff;
+}
+.label-moment{
+	background:#61b2a7;
+	color:#fff;
+}
 #profile-email:hover{
 	color:#223843;
 }
 
-#jobMatch{
-	background-image: url("../images/job-search.png");
-	background-position: center;
-	background-size: 100% 100%;
-}
 
-#nytreact{
-	background-image: url("../images/nytreact.png");
-	background-position: center;
-	background-size: 100% 100%;
-}
-
-#scrub-comment{
-	background-image: url("../images/digg-scraper.png");
-	background-position: center;
-	background-size: 100% 100%;
-}
-
-#trivia{
-	background-image: url("../images/trivia.png");
-	background-position: center;
-	background-size: 100% 100%;
-}
-
-#hangman{
-	background-image: url("../images/hangman.png");
-	background-position: center;
-	background-size: 100% 100%;
-}
-
-#burger{
-	background-image: url("../images/burger.png");
-	background-position: center;
-	background-size: 100% 100%;
-}
 #contact-well{
 	font-family: 'Josefin Slab', serif;	
 }
