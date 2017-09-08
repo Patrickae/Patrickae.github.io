@@ -130,6 +130,7 @@ font-family: 'Josefin Sans', sans-serif;
 .navbar-toggle{
 	background-color: white;
 }
+
 .icon-bar{
 	border:1px solid #223843;
 }
@@ -211,6 +212,10 @@ font-family: 'Josefin Sans', sans-serif;
 
 #contactLabel h1{
 	font-size: 80px;
+}
+
+.contact-img{
+	max-height: 225px;
 }
 
 .portfolio-frame{
@@ -317,6 +322,7 @@ header h2{
 #contact-well{
 	font-family: 'Josefin Slab', serif;	
 }
+
 
 @media only screen and (max-width: 762px){
 
