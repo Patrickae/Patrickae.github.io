@@ -73,7 +73,7 @@ text-align:center;
 
 .portfolio-element-description h3 span {
     display:inline-block;
-    padding:0 10px;
+    /*padding:0 10px;*/
     background:#EDECF4;
 }
 .portfolio-element-description h3:before {
@@ -251,10 +251,12 @@ font-family: 'Josefin Sans', sans-serif;
 	margin-bottom:20px;
 	opacity:0;
     transition:all .9s;
+    transform:translateX(-30%) scale(0.95);
 }
 
 .portfolio-element.active {
       opacity:1;
+      transform:translateX(0%) scale(1);
  }
 
 
@@ -334,9 +336,9 @@ header h2{
 @media only screen and (max-width: 762px){
 
 	.portfolio-pic{
-	box-shadow: 5px 5px 5px #555555;
-	
+	box-shadow: 5px 5px 5px #555555;	
 	}
+
 	#contactLabel{
 		padding-top:50px;
 	}
