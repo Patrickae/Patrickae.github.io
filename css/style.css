@@ -251,13 +251,10 @@ font-family: 'Josefin Sans', sans-serif;
 	margin-bottom:20px;
 	opacity:0;
     transition:all .9s;
-    transform:translateX(-30%) scale(0.95);
-
 }
 
 .portfolio-element.active {
       opacity:1;
-      transform:translateX(0%) scale(1);
  }
 
 
