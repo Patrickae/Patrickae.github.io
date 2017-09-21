@@ -15,7 +15,6 @@
 
 
     const portfolioElements = document.querySelectorAll(".portfolio-element");
-    console.log(portfolioElements);
 
     function checkSlide(e){
 
@@ -34,8 +33,6 @@
           portfolioElement.classList.add("active")
         };
         
-
-        console.log(portfolioElement.style);
       })
 
     }
